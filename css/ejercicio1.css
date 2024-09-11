@@ -1,0 +1,38 @@
+
+table,tr{
+    width: 100%;
+    border: 1px;
+    border-style: solid;
+    border-spacing: 0;
+}
+td,article{
+    border: 1px;
+    border-style: solid;
+}
+article{
+    margin: 6px;
+}
+nav{
+    text-align: center;
+    background-color: black;
+}
+footer{
+    text-align: center;
+    background-color: gray;
+}
+nav>a{
+    color: white;
+}
+li::marker{
+    content: "- ";
+}
+footer>a{
+    color: black;
+}
+a{
+    text-decoration: none;
+    
+}
+ul{
+    background-color: grey;
+}

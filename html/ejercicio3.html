@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 2</title>
+    <style>
+    form{
+        width: "400px";
+        border: 0px solid;
+    }       
+      </style>
+</head>
+<body>
+    <form action="">
+        <img src="../recursos/imagenes/3.jpeg">
+
+
+        <table>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="radio" name="julio">MR.
+                    <input type="radio" name="julio">Mrs.
+                    <input type="radio" name="julio">Ms.
+                 
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Fhis Name</label></td>
+                <td><input type="text" pattern="^(Mr|Ms|Mrs) [A-Za-z]+ [A-Za-z]+$" ></td>
+            </tr>
+            <tr>
+                <td><label for="">Last Name</label></td>
+                <td><input type="text" pattern="^^(Mr|Ms|Mrs) {1,3}[A-Za-z]+ {1,3}[A-Za-z]+$"></td>
+            </tr>
+            <tr>
+                <td><label for=""> Email</label></td>
+                <td><input type="email" pattern="^.+@cecar.edu.co"></td>
+            </tr>
+            <tr>
+                <td><label for="">Addres</label></td>
+                <td><input type="text" pattern="^.{0,100}$"></td>
+            </tr>
+            <tr>
+                <td><label for="">City</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">State</label></td>
+                <td> <select>
+                        <option value="">Gujarat</option>
+                        <option value="">monteria</option>
+                        <option value="">san pedro</option>
+                        <option value="">Sucre</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="">Zip</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">Upload Photo</label></td>
+                <td><input type="file"></td>
+            </tr>
+            
+
+        </table>
+       
+            <input type="submit" value="Buy it!">
+    
+    </form>
+</body>
+
+</html>
